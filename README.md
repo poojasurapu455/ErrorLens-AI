@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ErrorLens AI
 ### Student Misconception Detector
 
@@ -42,3 +43,6 @@ These results are preliminary and do not establish reliable performance on unsee
 - Improve model accuracy and generalisation
 - Test with more student responses
 - Add more subjects and misconception categories
+=======
+# ErrorLens-AI
+>>>>>>> 3467fd8fd26335baac3ed2d7a88d1f9a904ea85d
