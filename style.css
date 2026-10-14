@@ -1,0 +1,175 @@
+
+/* ErrorLens AI Styling */
+.stApp {
+    background: linear-gradient(135deg, #fff0f5, #eef7ff);
+    color: #263858;
+}
+
+h1 {
+    color: #d63384;
+    font-weight: 800;
+}
+
+h2, h3 {
+    color: #344767;
+}
+
+.stButton > button {
+    background: linear-gradient(90deg, #e63946, #d63384);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 22px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.stButton > button:hover {
+    background: #b5173a;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.stTextArea textarea,
+.stTextInput input {
+    border: 1px solid #d8b4d8;
+    border-radius: 10px;
+}
+
+div[data-testid="stAlert"] {
+    border-radius: 12px;
+}
+
+div[data-testid="stSelectbox"] {
+    border-radius: 10px;
+}
+
+/* ===== ErrorLens AI Theme ===== */
+
+.stApp {
+    background: #f5f7fc;
+    color: #172033;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.block-container {
+    max-width: 1150px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* Main title */
+h1 {
+    color: #4338ca;
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+
+h2, h3 {
+    color: #202b46;
+    font-weight: 700;
+}
+
+/* Description text */
+.stApp p {
+    line-height: 1.65;
+}
+
+/* Input fields */
+.stTextInput input,
+.stTextArea textarea {
+    background: #ffffff;
+    border: 1px solid #d7dcef;
+    border-radius: 10px;
+    color: #172033;
+}
+
+.stSelectbox [data-baseweb="select"] {
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+/* Buttons */
+.stButton button,
+.stDownloadButton button {
+    background: #4f46e5;
+    color: #ffffff;
+    border: none;
+    border-radius: 9px;
+    padding: 0.55rem 1rem;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+
+.stButton button:hover,
+.stDownloadButton button:hover {
+    background: #3730a3;
+    color: #ffffff;
+    border: none;
+}
+
+/* Cards and metric containers */
+div[data-testid="stMetric"] {
+    background: #ffffff;
+    border: 1px solid #e1e7f3;
+    border-radius: 14px;
+    padding: 18px;
+    box-shadow: 0 3px 12px rgba(30, 41, 80, 0.05);
+}
+
+div[data-testid="stMetricLabel"] {
+    color: #64748b;
+    font-weight: 600;
+}
+
+div[data-testid="stMetricValue"] {
+    color: #4338ca;
+    font-weight: 800;
+}
+
+/* Expanders */
+div[data-testid="stExpander"] {
+    background: #ffffff;
+    border: 1px solid #e1e7f3;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+/* Alerts */
+div[data-testid="stAlert"] {
+    border-radius: 10px;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background: #eef2ff;
+    border-right: 1px solid #dfe5f5;
+}
+
+section[data-testid="stSidebar"] h1,
+section[data-testid="stSidebar"] h2 {
+    color: #3730a3;
+}
+
+/* Charts and tables */
+div[data-testid="stDataFrame"] {
+    border: 1px solid #e1e7f3;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Dividers */
+hr {
+    border-color: #dfe5f5;
+}
+
+/* Mobile spacing */
+@media (max-width: 768px) {
+    .block-container {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+}

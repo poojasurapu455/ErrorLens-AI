@@ -1,0 +1,54 @@
+{
+    "accuracy": 52.0,
+    "precision_macro": 51.9,
+    "recall_macro": 61.45,
+    "f1_macro": 53.97,
+    "training_samples": 75,
+    "testing_samples": 25,
+    "dataset_size": 100,
+    "note": "Small demonstration dataset; results are preliminary.",
+    "confusion_matrix": [
+        [
+            1,
+            2,
+            0,
+            0,
+            0
+        ],
+        [
+            1,
+            3,
+            2,
+            2,
+            3
+        ],
+        [
+            0,
+            1,
+            4,
+            0,
+            0
+        ],
+        [
+            0,
+            1,
+            0,
+            2,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            3
+        ]
+    ],
+    "classes": [
+        "Binary search boundary error",
+        "Correct concept",
+        "Loop boundary error",
+        "Missing recursion base case",
+        "Stack order confusion"
+    ]
+}

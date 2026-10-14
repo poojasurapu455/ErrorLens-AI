@@ -1,0 +1,6 @@
+answer,label
+"Loop runs one extra time","Loop boundary error"
+"Binary search updates wrong boundary","Binary search boundary error"
+"Stack follows FIFO order","Stack order confusion"
+"Recursion has no stopping condition","Missing recursion base case"
+"My answer is correct", "Correct concept"

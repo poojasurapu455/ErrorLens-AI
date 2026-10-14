@@ -1,0 +1,51 @@
+timestamp,topic,category,source,student_name,answer,predicted_label,is_correct,prediction_method,confidence
+2026-10-14T13:24:20,Loops and array indices,Uncertain,ML (uncertain),,,,,,
+2026-10-14T13:25:35,Loops and array indices,Uncertain,ML (uncertain),,,,,,
+2026-10-14T13:25:37,Loops and array indices,Uncertain,ML (uncertain),,,,,,
+2026-10-14T13:25:38,Loops and array indices,Uncertain,ML (uncertain),,,,,,
+2026-10-14T13:25:38,Loops and array indices,Uncertain,ML (uncertain),,,,,,
+2026-10-14T13:25:40,Loops and array indices,Uncertain,ML (uncertain),,,,,,
+2026-10-14T13:25:40,Loops and array indices,Uncertain,ML (uncertain),,,,,,
+2026-10-14T13:25:40,Loops and array indices,Uncertain,ML (uncertain),,,,,,
+2026-10-14T13:25:40,Loops and array indices,Uncertain,ML (uncertain),,,,,,
+2026-10-14T13:26:07,Stacks,Stack order confusion,Rule check,,,,,,
+2026-10-14T13:33:12,Stacks,Stack order confusion,Rule check,,,,,,
+2026-10-14T13:43:26,Stacks,Stack order confusion,Rule check,,,,,,
+2026-10-14T13:54:57,Stacks,Stack order confusion,Rule check,,,,,,
+2026-10-14T14:17:53,Stacks,Stack order confusion,Rule check,,,,,,
+2026-10-14T14:24:31,Stacks,Stack order confusion,Rule check,,,,,,
+2026-10-14T14:32:05,Stacks,Correct concept,Rule check,,,,,,
+2026-10-14T16:01:34,Stacks,Stack order confusion,Rule check,,,,,,
+2026-10-14T16:31:37,Stacks,Stack order confusion,Rule check,,,,,,
+2026-10-14 16:47:16,Stacks,,,Anonymous,A stack follow first in first out,Stack order confusion,False,ML model,0.5066105340772179
+2026-10-14 16:47:18,Stacks,,,Anonymous,A stack follow first in first out,Stack order confusion,False,ML model,0.5066105340772179
+2026-10-14 16:47:19,Stacks,,,Anonymous,A stack follow first in first out,Stack order confusion,False,ML model,0.5066105340772179
+2026-10-14 16:47:19,Stacks,,,Anonymous,A stack follow first in first out,Stack order confusion,False,ML model,0.5066105340772179
+2026-10-14 16:47:19,Stacks,,,Anonymous,A stack follow first in first out,Stack order confusion,False,ML model,0.5066105340772179
+2026-10-14 16:47:19,Stacks,,,Anonymous,A stack follow first in first out,Stack order confusion,False,ML model,0.5066105340772179
+2026-10-14 16:51:41,Loops and array indices,,,Anonymous,range(4),Correct concept,True,Answer check,
+2026-10-14 16:51:55,Loops and array indices,,,Anonymous,range(5),Loop boundary error,False,ML model,0.2507532466184871
+2026-10-14 18:16:42,Loops and array indices,,,Anonymous,"for i in range(len(items)):
+    print(items[i])",Loop boundary error,False,ML model,0.2522778371407003
+2026-10-14 18:17:36,Loops and array indices,,,Anonymous,"for i in range(len(items)):
+    print(i,items[i])",Loop boundary error,False,ML model,0.2522778371407003
+2026-10-14 18:17:37,Loops and array indices,,,Anonymous,"for i in range(len(items)):
+    print(i,items[i])",Loop boundary error,False,ML model,0.2522778371407003
+2026-10-14 18:17:40,Loops and array indices,,,Anonymous,"for i in range(len(items)):
+    print(i,items[i])",Loop boundary error,False,ML model,0.2522778371407003
+2026-10-14 18:18:11,Loops and array indices,,,Anonymous,"for i in range(len(items)):
+    print(i,items[i])",Loop boundary error,False,ML model,0.2522778371407003
+2026-10-14 18:19:03,Loops and array indices,,,Anonymous,"for i in range(len(items)-1):
+    print(i,items[i])",Loop boundary error,False,ML model,0.2522778371407003
+2026-10-14 18:24:04,Loops and array indices,,,Anonymous,"for i in range(len(items)):
+    print(items[i])",Loop boundary error,False,Topic-based fallback,0.2522778371407003
+2026-10-14 18:28:11,Loops and array indices,,,Anonymous,"for i in range(len(items)):
+    print(items[i])",Loop boundary error,False,Topic-based fallback,0.2522778371407003
+2026-10-14 18:31:48,Loops and array indices,,,Anonymous,"for i in range(len(items)):
+        print(items[i])",Loop boundary error,False,Topic-based fallback,0.2522778371407003
+2026-10-14 19:44:28,Loops and array indices,,,Anonymous,"for i in range(len(items)):
+    print(items[i])",Correct concept,True,Answer check,1.0
+2026-10-14 22:21:49,Loops and array indices,,,Anonymous,1 2 3 4,Correct concept,True,Answer check,1.0
+2026-10-14 22:21:51,Loops and array indices,,,Anonymous,1 2 3 4,Correct concept,True,Answer check,1.0
+2026-10-14 22:38:52,Loops and array indices,,,Anonymous,"for item in items:
+     print(item)",Loop boundary error,False,Topic-based fallback,
